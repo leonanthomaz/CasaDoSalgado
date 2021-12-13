@@ -1,0 +1,246 @@
+.body-cliente-area{
+    max-width: 600px;
+    margin: auto;
+    padding: 10px;
+
+}
+
+.bloco-show-cliente{
+    background: #ffffffaf;
+    margin: 5px;
+    border-radius: 10px;
+    
+}
+
+.box-encomendas{
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    padding: 50px;
+    max-width: 600px;
+    margin: auto;
+}
+
+.titulo{
+    border-radius: 20px;
+    text-align: center;
+    padding: 10px;
+}
+
+.bloco-descricao-pedido{
+    margin: auto;
+    max-width: 600px;
+    min-width: 250px;
+    margin-top: 10px;
+    border-radius: 15px;
+    background-color: rgba(251, 255, 0, 0.445);
+    padding: 10px;
+    color: rgb(87, 87, 87);
+    text-align:justify;
+}
+
+.logo_cliente{
+    display: flex;
+    justify-content: center;
+}
+
+.bloco_cliente{
+    margin: 10px;
+    padding: 10px;
+}
+
+.pedido_numero{
+    border: 2px solid rgb(141, 141, 141);
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    text-align: center;
+}
+
+.formulario_cliente{
+    max-width: 400px;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+    border: 2px solid rgba(104, 104, 103, 0.76);
+    border-radius: 10px;
+
+}
+
+.status_cliente{
+    text-align: center;
+}
+
+.exclusao-conta{
+    margin: auto;
+    padding: 5px;
+}
+
+.page-item{
+    background-color: white;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    padding: 8px;
+    color: rgb(100, 100, 100);
+    font-weight: bold;
+}
+
+.page-item:hover{
+    background-color: red;
+    color: rgb(255, 255, 255);
+    width: 70px;
+    height: 20px;
+}
+
+a:hover{
+    text-decoration: none;
+}
+
+.page-atual{
+    background-color: gray;
+    width: 70px;
+    height: 20px;
+    border-radius: 10px;
+    margin-right: 3px;
+    padding: 8px;
+    font-weight: bold;
+
+}
+
+.page-item a{
+    text-decoration: none;
+}
+
+.hr3 {
+    border: 0;
+    border-top: medium double #CCC;
+    height: 1px;
+    overflow: visible;
+    padding: 0;
+    color: #CCC;
+    text-align: center; 
+}
+
+.bloco-redefinir-senha{
+    margin: auto;
+    max-width: 600px;
+    min-width: 250px;
+}
+
+.bloco-excluir-perfil{
+    margin: auto;
+    max-width: 600px;
+    min-width: 250px;
+}
+
+.bloco-caminho-cliente{
+    max-width: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    margin: auto;
+    background: rgba(255, 55, 55, 0.219);
+    border-radius: 10px;
+
+}
+
+.caminho-pedidos{
+    border: 2px solid rgba(255, 255, 255, 0.76);
+    background-color: rgba(255, 0, 0, 0.76);
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    transition: all 0.8s;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    margin: auto;
+    
+
+}
+
+.caminho-pedidos:hover{
+    opacity: 0.8px;
+    background-color: rgba(60, 255, 0, 0.76);
+    transition: all 0.8s;
+    width: 250px;
+    transition-duration: 0.3s;
+    margin: auto;
+    color: purple;
+
+}
+
+
+.caminho-perfil{
+    border: 2px solid rgba(255, 255, 255, 0.76);
+    background-color: rgba(255, 0, 0, 0.76);
+    width: 200px;
+    height: 30px;
+    cursor: pointer;
+    margin-top: 10px;
+    border-radius: 20px;
+    transition-duration: 0.3s;
+    margin: auto;
+
+
+}
+
+.caminho-perfil:hover{
+    opacity: 0.8px;
+    background-color: rgba(60, 255, 0, 0.76);
+    transition: all 0.8s;
+    width: 250px;
+    transition-duration: 0.3s;
+    margin: auto;
+    color: purple;
+
+
+}
+
+.caminho-pedidos a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.caminho-perfil a{
+    text-decoration: none;
+    color: white;
+
+
+}
+
+@media (min-width: 760px){
+    .bloco_cliente{
+    }
+
+    .bloco-descricao-pedido
+   {
+    margin: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    padding: 5px;
+   }
+
+   
+}
+
+@media (max-width: 760px){
+
+    .body-cliente-area{
+        margin: 10px;
+    }
+
+    .bloco-redefinir-senha{
+        margin: 10px;
+        
+    }
+
+    .bloco-excluir-perfil{
+        margin: 10px;
+    }
+}

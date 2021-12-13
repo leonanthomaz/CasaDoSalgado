@@ -1,0 +1,16 @@
+.parallax {
+    /* Coloque a imagem a ser usada como background */
+    background-image: url("../views/assets/sal2.jpg");
+     
+    /* Defina uma altura para a visão que o usuário terá da imagem */
+    min-height: 350px;
+     
+    /* defina o background como fixo e posicione a imagem */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+     
+    }
+    

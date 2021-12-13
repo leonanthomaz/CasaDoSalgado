@@ -1,0 +1,185 @@
+
+├───controllers
+│   └───actions
+│   │      └───actions-cart
+│   │	   │	finalize_order.php
+│   │      │
+│   │	   └───actions-client
+│   │		finalize_order.php
+│   │		delete-profile.php   
+│   │		send-client-update.php
+│   │		send-client-update-local.php
+│   │
+│   └───actions-admin
+│   │	  	delete-products.php
+│   │		delete-users-adm.php
+│   │		send-product.php
+│   │		send-update-product.php
+│   │		send-update-users.php
+│   │		update-status-orders.php
+│   │
+│   └────connect
+│   │	   	connect-login.php
+│   │		connect-recouver-password.php
+│   │ 		connect-register.php
+│   │		connect-reset-password.php
+│   │		connect-update-password.php
+│   │
+│   └───functions
+│		└───adm-functions
+│		│	listagem-itens-orders-adm.php
+│		└───cart-function
+│		│	cart_function.php
+│		│	cart-control.php
+│		└───client-functions
+│		│	listagem-itens-orders-client.php
+│		│	stages-of-the-day.php
+│		└───global-functions
+│		│	delivery-tax.php
+│		│	opening-hours.php
+│		│	time.php
+│		└───product_function
+│			product_function.php
+│
+│
+│
+│
+├───lib	
+│
+├───models
+│   └───config.php
+│   │         
+│   └────classes
+│          classes.php
+│   
+│
+│
+│
+├───views
+│   └───admin
+│   │	│    dashboard_adm.php
+│   │	│    dashboard_users.php
+│   │	│    orders.php
+│   │	│    register-product.php
+│   │	│    search-orders.php
+│   │	│     search-users.php
+│   │	│     search-orders.php
+│   │	│     stats.php
+│   │	│     update-product.php
+│   │	│     update-users.php
+│   │	│
+│   │	└───includes
+│   │	    footer.php
+│   │	    header.php
+│   │ 	    local-name-orders.php
+│   │	    local-search-orders.php
+│   │
+│   └───cart
+│   │	│    cart.php
+│   │	│    checkout.php
+│   │	│    orders.php
+│   │	│    register-product.php
+│   │	│
+│   │	└───includes
+│   │	    	block-cart-body.php
+│   │	  	block-cart-down.php
+│   │ 	    	block-cart-up.php
+│   │	    	description-total-cart.php
+│   │	    	footer.php
+│   │	  	header.php
+│   │ 	    	navbar-cart.php
+│   └───client
+│   │	│    main-client-area.php
+│   │	│    my-orders.php
+│   │	│    status-client.php
+│   │	│    update_profile.php
+│   │	│    update-local.php
+│   │	│
+│   │	└───includes
+│   │	    footer.php
+│   │	    header.php
+│   │ 	    navbar.php
+│   │	    whatsapp.php
+│   │
+│   └───login
+│   │	│    login.php
+│   │	│    recouver_password.php
+│   │	│    register.php
+│   │	│    reset-password.php
+│   │	│    update_password.php
+│   │	│
+│   │	└───includes
+│   │	    footer.php
+│   │	    header.php
+│   │
+│   └───pages
+│   │	│    bebidas.php
+│   │	│    combos.php
+│   │	│    salgadinhos.php
+│   │	│    dashboard.php
+│   │	│
+│   │	└───includes
+│   │	    	cart-box.php
+│   │	    	category.php
+│   │	    	icone-cart.php
+│   │	    	modal-sabores.php
+│   │	    	navbar.php
+│   │	   	social-network.php
+│   │         	welcome.php
+│   │
+│   │
+│   └───public   
+│   	└───css
+│   	│     adm.css
+│ 	│     animate.css
+│ 	│     bootstrap.css
+│	│     bootstrap.min.css
+│	│     cart.css
+│	│     cliente.css
+│	│     itens-cart.css
+│	│     login.css
+│	│     normalize.css
+│	│     statusClient.css
+│	│     styles.css
+│	│     whatsapp.css
+│	│
+│  	└───js
+│	│     jquery-3.6.0.min.js
+│	│     script.js
+│	│     whatsApp.js
+│	│     wow.js
+│	│     wowslider.js
+│       │
+│	└───bootstrap-js
+│ 	│	bootstrap.js
+│	│	bootstrap.min.js
+│	│	bootstrap.bundle.js
+│	│	bootstrap.bundle.min.js
+│       │
+│	└──dist
+│	│        wow.js
+│	│        wow.min.js
+│	│
+│	│
+│   	│
+│   	│
+│   	└───includes
+│   	        category.php
+│		footer.php
+│		header.php
+│		list-select-local.php
+│		list-select-status.php
+│		local-name.php
+│		logo-amarelo.php
+│		logo.php
+│		navbar.php
+│		orderStatus.php
+│		pages-my-orders.php
+│		pages-orders.php
+│		pages-orders.php
+│		payment.php
+│		social-network.php
+│	
+│
+└───index.php
+
