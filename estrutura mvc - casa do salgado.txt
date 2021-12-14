@@ -73,6 +73,7 @@
 │   │	    header.php
 │   │ 	    local-name-orders.php
 │   │	    local-search-orders.php
+│   │	    local-name-update-users.php
 │   │
 │   └───cart
 │   │	│    cart.php
