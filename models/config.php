@@ -1,11 +1,19 @@
 <?php
 /* Credenciais do banco de dados */
 
+
 define('DB_SERVER', 'localhost');
 define('DB_USERNAME', 'root');
 define('DB_PASSWORD', '');
 define('DB_NAME', 'ecommerce');
 
+
+/*
+define('DB_SERVER', 'localhost');
+define('DB_USERNAME', 'id18065164_dbcdsabv');
+define('DB_PASSWORD', 'Leo@2knetabv');
+define('DB_NAME', 'id18065164_cdsabv');
+*/
 
 /* Conexão com o banco de dados MySQL */
 try{
